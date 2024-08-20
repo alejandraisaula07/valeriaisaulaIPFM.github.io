@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body header{
+
+    background-color:#D03C13;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 35vh;
+	display: flex;
+	align-items: center;
+    font-style: normal;
+	text-align: center;
+	
+}
+.menu{
+	color:#FFFFFF;
+	font-size: 15px;
+	display:flex;
+	margin-bottom: 15px;
+	padding-top: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: justify;
+	position: relative;	
+}
+.menu ul{
+	background-color: #E7A572;
+	border: 0px solid #7C7C7C;
+	overflow: hidden;
+	list-style-type: none;
+	padding-top: 12px;
+	display:flex;
+}
+.menu ul li{
+	float: left;
+	width: 254px;
+}
+.menu ul li:hover{
+     background-color:rgba(253,253,253,.5);
+}
+ul li a{
+	border-left:0px solid #FFFFFF;
+	border-right: 0px solid #7C7C7C;
+	padding: .5em;
+	display: block;
+	text-decoration: none;
+}
+ul li a:hover{
+	color:#FFFFFF;
+}
+body footer{
+	position: relative;
+	padding-top:5px;
+	padding-bottom:0px;
+	background-color:#D03C13;
+	text-align: center;
+	color: #000000;
+	margin-top: 50px;
+		
+}
+
+body footer p{
+	text-align:center;
+}
+body footer h5{
+	color:#C7BA10;
+}
+
+.pie02{
+	background-color: darkorange;
+}
+
+.descripcion{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}

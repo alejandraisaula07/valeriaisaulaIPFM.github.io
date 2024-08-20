@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body header{
+
+    background-color:#D03C13;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 35vh;
+	display: flex;
+	align-items: center;
+    font-style: normal;
+	text-align: center;
+	
+}
+.menu{
+	color:#FFFFFF;
+	font-size: 15px;
+	display:flex;
+	margin-bottom: 15px;
+	padding-top: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: justify;
+	position: relative;	
+}
+.menu ul{
+	background-color: #E7A572;
+	border: 0px solid #7C7C7C;
+	overflow: hidden;
+	list-style-type: none;
+	padding-top: 12px;
+	display:flex;
+}
+.menu ul li{
+	float: left;
+	width: 254px;
+}
+.menu ul li:hover{
+     background-color:rgba(253,253,253,.5);
+}
+ul li a{
+	border-left:0px solid #FFFFFF;
+	border-right: 0px solid #7C7C7C;
+	padding: .5em;
+	display: block;
+	text-decoration: none;
+}
+ul li a:hover{
+	color:#FFFFFF;
+}
+body footer{
+	position: relative;
+	padding-top:5px;
+	padding-bottom:0px;
+	background-color:#D03C13;
+	text-align: center;
+	color: #000000;
+	margin-top: 50px;
+		
+}
+
+body footer p{
+	text-align:center;
+}
+body footer h5{
+	color:#C7BA10;
+}
+
+.pie02{
+	background-color: darkorange;
+}
+
+.cont{
+	padding-top: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+    text-align: center;
+	border-bottom:4px solid #F1CD2A;
+	border-top:4px solid #F1CD2A;
+	border-right:4px solid #F1CD2A;
+	border-left:4px solid #F1CD2A;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+.numeros{
+    background-color: #FCAE1D;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-bottom:4px solid #B5560D;
+	border-top:4px solid #B5560D;
+	border-right:4px solid #B5560D;
+	border-left:4px solid #B5560D;
+	margin-top: 50px;
+}
+
+.num{
+	margin-left: 40px;
+	display: contents;
+	text-align: center;
+}
